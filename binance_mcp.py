@@ -69,4 +69,4 @@ def get_price_price_change(symbol: str) -> Any:
     
 if __name__ == "__main__":
     print("Starting Binance MCP")
-    mcp.run(transport="streamable-http")
+    mcp.run(transport="sse")
